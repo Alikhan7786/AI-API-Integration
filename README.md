@@ -28,7 +28,6 @@ Modular code structure (separate files for each API)
 - VS Code
 
 
-
 ## Setup Instructions 
 
 1. Clone the repository:
