@@ -31,19 +31,19 @@ Modular code structure (separate files for each API)
 
 ## Setup Instructions 
 
-Clone the repository:
-git clone https://github.com/username/repo-name cd ai-api-integration
+1. Clone the repository:
+   git clone https://github.com/username/repo-name cd ai-api-integration
 
-Install required dependencies:
-pip install -r requirements.txt
+2. Install required dependencies:
+   pip install -r requirements.txt
 
-How to Obtain API Keys
-Groq: https://console.groq.com Cohere: https://dashboard.cohere.ai/api-keys Google Gemini: https://makersuite.google.com/app/apikey HuggingFace: https://huggingface.co/settings/tokens Ollama does not require an API key (runs locally)
+3. How to Obtain API Keys
+   Groq: https://console.groq.com Cohere: https://dashboard.cohere.ai/api-keys Google Gemini: https://makersuite.google.com/app/apikey HuggingFace:                   https://huggingface.co/settings/tokens Ollama does not require an API key (runs locally)
 
-Set up API keys as environment variables:
-For Windows (PowerShell):
+4. Set up API keys as environment variables:
+   For Windows (PowerShell):
 
-$env:GROQ_API_KEY="your_api_key" $env:COHERE_API_KEY="your_api_key" $env:GOOGLE_API_KEY="your_api_key" $env:HUGGINGFACE_API_KEY="your_api_key"
+5. $env:GROQ_API_KEY="your_api_key" $env:COHERE_API_KEY="your_api_key" $env:GOOGLE_API_KEY="your_api_key" $env:HUGGINGFACE_API_KEY="your_api_key"
 
-Run any Python file:
-python gemini_example.py python groq.py python huggingface.py python cohere.py python ollama.py
+6. Run any Python file:
+   python gemini_example.py python groq.py python huggingface.py python cohere.py python ollama.py
