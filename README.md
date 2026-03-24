@@ -5,11 +5,11 @@ This project demonstrates the integration of multiple Generative AI APIs using P
 It allows users to interact with different AI providers by entering prompts and receiving responses.
 
 The following AI providers are implemented:
--> Groq
--> Ollama (Local Model)
--> Hugging Face
--> Google Gemini
--> Cohere
+- Groq
+- Ollama (Local Model)
+- Hugging Face
+- Google Gemini
+- Cohere
 
 
 ## Features
